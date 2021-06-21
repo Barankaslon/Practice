@@ -6,19 +6,17 @@ using std::endl;
 
 
 
-
-
-
 int main() {
+
 	int numberOfRooms;
-	int pricePerRoom = 30;
-	const int valid = 30;
 
 
-	cout << "Hello, welcome to Gvozd Carpet Cleaning Service (GCCS)" << endl;
+	cout << "Hello, You are NOTwelcome to Gvozd Carpet Cleaning Service (GCCS)" << endl;
 
 	cout << "Enter number of the rooms: " << endl;
 	cin >> numberOfRooms;
+	int pricePerRoom {34};
+	const int valid {30};
 	cout << "Number of Rooms : " << numberOfRooms << endl;
 	cout << "Price per Room: $" << pricePerRoom << endl;
 
@@ -29,8 +27,9 @@ int main() {
 	cout << "Cost: $" << cost << endl;
 	cout << "Tax: $" << tax << endl;
 
-	cout << "Total estimate: " << totalCost << endl;
+	cout << "Total estimafdsfsdfte: $ " << totalCost << endl;
 	cout << "This estimate is valid for " << valid << " days" << endl;
 
-	return 0;
+
+	return 1;
 }
