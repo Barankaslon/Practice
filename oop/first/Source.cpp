@@ -9,6 +9,13 @@ public:
 	string name;
 	int age;
 	int weight;
+
+	void Print()
+	{
+		cout << "\nName: " << name << " \nWeight: " << weight << " \nAge: " << age << endl << endl;
+
+		cout << "======================================================================" << endl;
+	}
 };
 
 class Point
@@ -27,25 +34,29 @@ int main() {
 	firsHuman.name = "Alex";
 	firsHuman.weight = 100;
 
-	cout << firsHuman.age << endl;
-	cout << firsHuman.name << endl;
-	cout << firsHuman.weight << " kg" << endl;
+	firsHuman.Print();
 
 	Human secondHuman;
 	secondHuman.age = 8;
 	secondHuman.name = "Andrey";
 	secondHuman.weight = 10;
 
-	cout << "======================================================================" << endl;
+	
 
-	cout << secondHuman.age << endl;
-	cout << secondHuman.name << endl;
-	cout << secondHuman.weight << " kg" << endl;
+	secondHuman.Print();
+
+
+	Human extraHuman;
+	extraHuman.age = {};
+	extraHuman.name = {""};
+	extraHuman.weight = {};
+
+	extraHuman.Print();
 
 	Point a;
-	a.x = 1;
-	a.y = 3;
-	a.z = 5;
+		a.x = 1;
+		a.y = 3;
+		a.z = 5;
 
 
 
