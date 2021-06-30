@@ -11,6 +11,14 @@ public:
 	int weight;
 };
 
+class Point
+{
+public:
+	int x;
+	int y;
+	int z;
+};
+
 int main() {
 		
 	Human firsHuman;
@@ -33,6 +41,11 @@ int main() {
 	cout << secondHuman.age << endl;
 	cout << secondHuman.name << endl;
 	cout << secondHuman.weight << " kg" << endl;
+
+	Point a;
+	a.x = 1;
+	a.y = 3;
+	a.z = 5;
 
 
 
