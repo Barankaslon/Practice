@@ -20,10 +20,25 @@ public:
 
 class Point
 {
+private:
+	int x{};
+	int y{};
+
 public:
-	int x;
-	int y;
-	int z;
+	int GetX()
+	{
+		return x;
+	}
+
+	void SetX(int valueX)
+	{
+		x = valueX;
+	}
+
+	void Print()
+	{
+		cout << "X = " << x << "\tY = " << y << endl <<  endl;
+	}
 };
 
 int main() {
@@ -54,9 +69,8 @@ int main() {
 	extraHuman.Print();
 
 	Point a;
-		a.x = 1;
-		a.y = 3;
-		a.z = 5;
+	a.SetX(4);
+		a.Print();
 
 
 
