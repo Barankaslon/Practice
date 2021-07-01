@@ -35,13 +35,49 @@ public:
 		x = valueX;
 	}
 
+	int GetY()
+	{
+		return y;
+	}
+
+	void SetY(int valueY)
+	{
+		y = valueY;
+	}
+
 	void Print()
 	{
 		cout << "X = " << x << "\tY = " << y << endl <<  endl;
 	}
 };
 
+class CoffeGrider
+{
+private:
+
+	bool CheckVoltage()
+	{
+		return false;
+	}
+
+public:
+	void Start()
+	{
+		if (CheckVoltage())
+		{
+			cout << "VjuHHHH!" << endl;
+		}
+		else
+		{
+			cout << "Beep Beep, Low Voltage" << endl;
+		}
+	}
+};
+
 int main() {
+
+	CoffeGrider Bosh;
+	Bosh.Start();
 		
 	Human firsHuman;
 
@@ -70,7 +106,10 @@ int main() {
 
 	Point a;
 	a.SetX(4);
-		a.Print();
+	a.Print();
+	a.SetY(11);
+
+	a.Print();
 
 
 
