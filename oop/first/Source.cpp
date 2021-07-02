@@ -25,6 +25,13 @@ private:
 	int y{};
 
 public:
+
+	Point(int valueX, int valueY )
+	{
+		x = valueX;
+		y = valueY;
+	}
+
 	int GetX()
 	{
 		return x;
@@ -104,12 +111,15 @@ int main() {
 
 	extraHuman.Print();
 
-	Point a;
-	a.SetX(4);
+	Point a(5, 44);
 	a.Print();
+
 	a.SetY(11);
 
 	a.Print();
+
+	Point b(3, 70);
+	b.Print();
 
 
 
