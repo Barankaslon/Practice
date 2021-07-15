@@ -29,12 +29,17 @@ public:
 	{
 		x = {};
 		y = {};
+
+		cout << this << " constructor" << endl;
+
+		this->
 	}
 
 	Point(int valueX, int valueY)
 	{
 		x = valueX;
 		y = valueY;
+		cout << this << " constructor" << endl;
 	}
 
 	void Print()
@@ -48,6 +53,9 @@ int main()
 
 	Point a;
 	a.Print();
+
+	Point b(4, 11);
+	b.Print();
 
 
 

@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\SoftDev\SoftDev\oop\pointers_and_functions\pointers_and_functions\main.cpp(13,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  pointers_and_functions.vcxproj -> D:\SoftDev\SoftDev\oop\pointers_and_functions\pointers_and_functions\x64\Debug\pointers_and_functions.exe
